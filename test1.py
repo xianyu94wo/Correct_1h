@@ -17,4 +17,4 @@ for i in list1:
     print(i.split('.')[0])
     print(pathOutput + 'MODP_QHQX_MBTY_TMAX_AFQH_000_DT_20' + (i.split('.')[0] + '0000_000-024.nc'))
     shutil.move(pathOutput + i , pathOutput + 'MODP_QHQX_MBTY_TMIN_AFQH_000_DT_20' + (i.split('.')[0] + '0000_000-024.nc'))
-
+print('test')
